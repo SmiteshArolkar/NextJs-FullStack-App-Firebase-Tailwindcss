@@ -83,9 +83,9 @@ const AuthModal = () => {
         onClick={toggleModal}
         className="text-white bg-yellow-500 rounded-md px-4 py-2  hover:bg-yellow-600 hover:text-white"
       >
-        <h>
-          <i class="fa-solid fa-user mx-1 "></i> Account
-        </h>
+        <p>
+          <i className="fa-solid fa-user mx-1 "></i> Account
+        </p>
       </button>
 
       {isOpen  && (
@@ -255,19 +255,19 @@ const AuthModal = () => {
                   className="bg-blue-600 border-2 text-center  hover:bg-blue-300 text-white font-bold px-5 py-4 rounded-full focus:outline-none focus:shadow-outline m-5"
                   onClick={handleClickGoogle}
                 >
-                  <i class="fa-brands fa-google fa-lg"></i>
+                  <i className="fa-brands fa-google fa-lg"></i>
                 </button>
                 <button
                   className="bg-blue-600 text-center m-5 border-2 px-5 py-4 hover:bg-blue-300 text-white font-bold  rounded-full focus:outline-none focus:shadow-outline "
                   onClick={handleClickFaceBook}
                 >
-                  <i class="fa-brands fa-facebook fa-lg"></i>
+                  <i className="fa-brands fa-facebook fa-lg"></i>
                 </button>
                 <button
                   className="bg-blue-600 text-center m-5 border-2 px-5 py-4 hover:bg-blue-300 text-white font-bold  rounded-full focus:outline-none focus:shadow-outline "
                   onClick={handleClickTwitter}
                 >
-                  <i class="fa-brands fa-twitter fa-lg "></i>
+                  <i className="fa-brands fa-twitter fa-lg "></i>
                 </button>
               </div>
               { error && (

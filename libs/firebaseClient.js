@@ -14,7 +14,7 @@ const clientCreds = {
 
 if (!firebase.apps.length) {
   firebase.initializeApp(clientCreds);
-  firebase.auth().setPersistence(firebase.auth.Auth.Persistence.SESSION);
+  
 }
 
 export const db = firebase.firestore()
