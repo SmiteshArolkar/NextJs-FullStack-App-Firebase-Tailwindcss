@@ -19,7 +19,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex-shrink-0">
             <Link href="/">
-              <h className="text-white font-bold text-xl">My Website</h>
+              <h className="text-white font-bold text-xl">SMITESH AROLKAR</h>
             </Link>
           </div>
           <div className="-mr-2 flex md:hidden">
