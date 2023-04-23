@@ -64,13 +64,13 @@ const Navbar = () => {
             <SearchBar/>
             <Link href="/">
             
-              <h className="text-ywhite hover:bg-yellow-600 hover:text-white block px-3 py-2 rounded-md text-base "> <i class="fa-solid fa-home mx-1"></i> Home</h>
+              <h className="text-white hover:bg-yellow-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"><i class="fa-solid fa-home mx-1"></i> Home</h>
             </Link>
-            <Link href="/about">
+            <Link href="/">
            
-              <h className="text-white-200 hover:bg-yellow-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"> <i class="fa-solid fa-info mx-1"></i> About</h>
+              <h className="text-white hover:bg-yellow-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium"><i class="fa-solid fa-info mx-1"></i> About</h>
             </Link>
-            <Link href="/contact">
+            <Link href="/">
             
               <h className="text-white hover:bg-yellow-600 hover:text-white block px-3 py-2 rounded-md text-base font-medium "><i class="fa-solid fa-phone mx-1"></i> Contact</h>
             </Link>
